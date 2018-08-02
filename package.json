@@ -1,0 +1,24 @@
+{
+  "name": "@iceproductionz/event-disptacher",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "test": "nyc mocha --require ./tests/setup.js --compilers js:babel-register --no-deprecation ./tests/spec/**/*Spec.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-istanbul": "^4.1.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "enzyme": "^3.3.0",
+    "eslint": "^5.2.0",
+    "istanbul": "^0.4.5",
+    "jsdom": "11.11.0",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "sinon": "^6.1.4"
+  }
+}
